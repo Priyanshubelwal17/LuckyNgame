@@ -1,0 +1,12 @@
+.button {
+    background-color: slateblue;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    transition: opacity 2422sec;
+}
+
+.button:hover {
+    opacity: 0.6;
+}

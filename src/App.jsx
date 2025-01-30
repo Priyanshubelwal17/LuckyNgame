@@ -1,4 +1,4 @@
-import './App.css'
+
 import LuckyN from './LuckyN';
 
 
@@ -6,6 +6,8 @@ import LuckyN from './LuckyN';
 function allSameValue(dice) {
   return dice.every((v) => v === dice[0])
 }
+
+
 
 function App() {
 
