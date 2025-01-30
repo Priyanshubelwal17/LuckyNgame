@@ -1,14 +1,18 @@
 import './App.css'
 import LuckyN from './LuckyN';
-import PracticeDice from "./PracticeDice"
 
+
+
+function allSameValue(dice) {
+  return dice.every((v) => v === dice[0])
+}
 
 function App() {
 
 
   return (
     <>
-      <PracticeDice />
+      <LuckyN wincheck={allSameValue} title='all same value' />
       {/* <PracticeDie /> */}
       {/* <LuckyN numDice={3} goal={8} /> */}
       {/* <LuckyN numDice={3} goal={8} /> */}
