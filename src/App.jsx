@@ -1,13 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import LuckyN from './LuckyN';
+import PracticeDice from "./PracticeDice"
+
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
+      <PracticeDice />
+      {/* <PracticeDie /> */}
+      {/* <LuckyN numDice={3} goal={8} /> */}
+      {/* <LuckyN numDice={3} goal={8} /> */}
 
     </>
   )

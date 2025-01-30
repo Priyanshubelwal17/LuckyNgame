@@ -1,3 +1,4 @@
+import Die from "./Die";
 import "./Dice.css"
 
 function Dice({ dice }) {
