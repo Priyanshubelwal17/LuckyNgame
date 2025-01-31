@@ -1,4 +1,6 @@
 
+import Box from './Box';
+import Boxgrid from './Boxgrid';
 import LuckyN from './LuckyN';
 
 
@@ -14,7 +16,8 @@ function App() {
 
   return (
     <>
-      <LuckyN wincheck={allSameValue} title='all same value' />
+      <Boxgrid />
+      {/* <LuckyN wincheck={allSameValue} title='all same value' /> */}
       {/* <PracticeDie /> */}
       {/* <LuckyN numDice={3} goal={8} /> */}
       {/* <LuckyN numDice={3} goal={8} /> */}
